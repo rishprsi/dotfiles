@@ -1,0 +1,4 @@
+--ignore=.git
+--ignore=Brewfile
+--ignore=.stowrc
+--ignore=install.sh

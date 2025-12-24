@@ -1,0 +1,7 @@
+[user]
+	name = Rishabh
+	email = rishprsi@gmail.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true

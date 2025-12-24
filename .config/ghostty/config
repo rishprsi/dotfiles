@@ -1,0 +1,13 @@
+theme = Vesper
+background = 000000
+macos-option-as-alt = true
+window-decoration = true
+
+font-family = JetBrains Mono
+font-thicken = true
+font-size = 11
+
+
+macos-titlebar-style = hidden
+
+shell-integration-features = no-sudo, title
