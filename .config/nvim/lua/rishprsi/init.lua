@@ -1,2 +1,2 @@
-print("Hello from rishprsi")
-require("rishprsi.remap")
+--print("Hello from rishprsi")
+--require("rishprsi.remap")

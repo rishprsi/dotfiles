@@ -114,10 +114,11 @@ alt-slash = 'layout tiles horizontal vertical'
 alt-comma = 'layout accordion horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
-alt-h = 'focus left'
-alt-j = 'focus down'
-alt-k = 'focus up'
-alt-l = 'focus right'
+alt-h = 'focus --boundaries workspace --boundaries-action stop left'
+alt-j = 'focus --boundaries workspace --boundaries-action stop down'
+alt-k = 'focus --boundaries workspace --boundaries-action stop up'
+alt-l = 'focus --boundaries workspace --boundaries-action stop right'
+# all-monitors-outer-frame
 
 
 ctrl-h = 'focus-monitor left'
@@ -221,3 +222,24 @@ esc = 'mode main'
 7 = 1
 8 = 2
 9 = 2
+
+
+# Make specific applications floating so Aerospace ignores their tiling
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = 'layout floating tiling'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Dock'
+run = 'layout floating tiling'
+
+[[on-window-detected]]
+if.app-id = 'com.apple.Calendar'
+run = 'layout floating tiling'
+
+# You can add other Apple apps here as needed, for example:
+# [[float-for-app]]
+# if.app-id = 'com.apple.controlcenter'
+#
+# [[float-for-app]]
+# if.app-id = 'com.apple.systempreferences' # or systemsettings on newer macOS
