@@ -2,3 +2,4 @@
 --ignore=Brewfile
 --ignore=.stowrc
 --ignore=install.sh
+--ignore=.bootdev.yaml
