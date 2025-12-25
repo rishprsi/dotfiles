@@ -2,18 +2,28 @@ tap "asmvik/formulae"
 tap "felixkratz/formulae"
 tap "koekeishiya/formulae"
 tap "nikitabobko/tap"
+# Versatile and fast Unicode/ASCII/ANSI graphics renderer
+brew "chafa"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# Interpreter for PostScript and PDF
+brew "ghostscript"
 # Distributed revision control system
 brew "git"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Convert JPG images to ASCII
+brew "jp2a"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Linear Algebra PACKage
 brew "lapack"
+# Simple terminal UI for git commands
+brew "lazygit"
 # Efficient compressor with very fast decompression
 brew "lizard", link: false
 # Utility for directing compilation
@@ -22,10 +32,12 @@ brew "make"
 brew "openjdk"
 # Java-based project management
 brew "maven"
-# Ambitious Vim-fork focused on extensibility and agility
-brew "neovim"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
+# CLI for Mermaid library
+brew "mermaid-cli"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
 # Optimized BLAS library
 brew "openblas"
 # Package for scientific computing with Python
@@ -52,6 +64,8 @@ brew "python-setuptools"
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Modernized, complete, self-contained TeX/LaTeX engine
+brew "tectonic"
 # Terminal multiplexer
 brew "tmux"
 # Extremely fast Python package installer and resolver, written in Rust
