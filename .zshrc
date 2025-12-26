@@ -11,3 +11,4 @@ export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship.toml
 
+set -o vi
