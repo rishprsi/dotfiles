@@ -2,81 +2,45 @@ tap "asmvik/formulae"
 tap "felixkratz/formulae"
 tap "koekeishiya/formulae"
 tap "nikitabobko/tap"
-# Versatile and fast Unicode/ASCII/ANSI graphics renderer
+brew "bat"
 brew "chafa"
-# Simple, fast and user-friendly alternative to find
+brew "eza"
 brew "fd"
-# Command-line fuzzy finder written in Go
 brew "fzf"
-# Interpreter for PostScript and PDF
 brew "ghostscript"
-# Distributed revision control system
 brew "git"
-# Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Tools and libraries to manipulate images in many formats
 brew "imagemagick"
-# Convert JPG images to ASCII
 brew "jp2a"
-# Lightweight and flexible command-line JSON processor
 brew "jq"
-# Linear Algebra PACKage
 brew "lapack"
-# Simple terminal UI for git commands
 brew "lazygit"
-# Efficient compressor with very fast decompression
 brew "lizard", link: false
-# Utility for directing compilation
 brew "make"
-# Development kit for the Java programming language
 brew "openjdk"
-# Java-based project management
 brew "maven"
-# Open-source, cross-platform JavaScript runtime environment
 brew "node"
-# CLI for Mermaid library
 brew "mermaid-cli"
-# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
-# Optimized BLAS library
 brew "openblas"
-# Package for scientific computing with Python
 brew "numpy"
-# Search tool like grep and The Silver Searcher
 brew "ripgrep"
-# AI coding agent, built for the terminal
 brew "opencode"
-# Development kit for the Java programming language
 brew "openjdk@11"
-# Development kit for the Java programming language
 brew "openjdk@17"
-# Swiss-army knife of markup format conversion
 brew "pandoc"
-# Execute binaries from Python packages in isolated environments
 brew "pipx"
-# Object-relational database system
 brew "postgresql@15", restart_service: :changed
-# Python library for creating static, animated, and interactive visualizations
 brew "python-matplotlib"
-# Easily download, build, install, upgrade, and uninstall Python packages
 brew "python-setuptools"
-# Cross-shell prompt for astronauts
 brew "starship"
-# Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
-# Modernized, complete, self-contained TeX/LaTeX engine
 brew "tectonic"
-# Terminal multiplexer
 brew "tmux"
-# Extremely fast Python package installer and resolver, written in Rust
 brew "uv"
-# Simple hotkey-daemon for macOS.
 brew "asmvik/formulae/skhd"
-# A window border system for macOS
 brew "felixkratz/formulae/borders"
-# A tiling window manager for macOS based on binary space partitioning.
 brew "koekeishiya/formulae/yabai"
-# AeroSpace is an i3-like tiling window manager for macOS
 cask "aerospace"
 cask "font-geist-mono-nerd-font"
 cask "font-hack-nerd-font"
@@ -84,15 +48,10 @@ cask "font-jetbrains-mono"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-source-code-pro"
 cask "font-symbols-only-nerd-font"
-# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# GPU-based terminal emulator
 cask "kitty"
-# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
-# Open-source code editor
 cask "visual-studio-code"
-# Gecko based web browser
 cask "zen"
 vscode "brobeson.vscode-lizard"
 vscode "esbenp.prettier-vscode"
