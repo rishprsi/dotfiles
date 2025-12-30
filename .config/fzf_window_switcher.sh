@@ -1,0 +1,1 @@
+aerospace/fzf_window_switcher.sh
