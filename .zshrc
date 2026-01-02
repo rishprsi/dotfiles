@@ -13,7 +13,7 @@ compinit
 export PATH=$PATH:$HOME/go/bin
 
 export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
 export EDITOR=/opt/homebrew/bin/nvim
 
 type starship_zle-keymap-select > /dev/null || \
