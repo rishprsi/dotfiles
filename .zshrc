@@ -18,7 +18,6 @@ export EDITOR=/opt/homebrew/bin/nvim
 
 type starship_zle-keymap-select > /dev/null || \
   {
-    echo "Load starship"
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship.toml
   }
