@@ -61,3 +61,10 @@ _fzf_comprun() {
 }
 
 export BAT_THEME="Catppuccin Mocha"
+
+# bun completions
+[ -s "/Users/rishu1014/.bun/_bun" ] && source "/Users/rishu1014/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
