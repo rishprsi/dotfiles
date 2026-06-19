@@ -9,7 +9,7 @@ return {
 					transparency = true,
 				},
 			})
-			vim.cmd("colorscheme rose-pine")
+			-- vim.cmd("colorscheme rose-pine")
 		end,
 	},
 	-- Explicitly tell LazyVim to use rose-pine
