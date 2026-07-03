@@ -2,13 +2,15 @@ add_newline = false
 # A minimal left prompt
 palette = "catppuccin_mocha"
 # move the rest of the prompt to the right
-right_format = """$all"""
 command_timeout = 1000
+
+format = """$hostname$directory$git_branch$character"""
+right_format = """$all"""
 
 [hostname]
 ssh_only = true
 disabled = false
-format = """$hostname$directory$git_branch$character"""
+
 
 [character]
 vimcmd_symbol = '[❮](bold green)'
@@ -27,11 +29,11 @@ format = '\( [$symbol$branch(:$remote_branch)]($style) \) '
 [time]
 disabled = true
 
-[aws]
-format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
-disabled = true
-style = 'bold blue'
-symbol = " "
+# [aws]
+# format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
+# disabled = true
+# style = 'bold blue'
+# symbol = " "
 
 [golang]
 format = '[ ](bold cyan)'
