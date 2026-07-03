@@ -29,11 +29,14 @@ format = '\( [$symbol$branch(:$remote_branch)]($style) \) '
 [time]
 disabled = true
 
-# [aws]
-# format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
-# disabled = true
-# style = 'bold blue'
-# symbol = " "
+[aws]
+format = '[$symbol(profile: "$profile" )(\(region: $region\) )]($style)'
+disabled = true
+style = 'bold blue'
+symbol = " "
+
+[gcloud]
+disabled = true
 
 [golang]
 format = '[ ](bold cyan)'
