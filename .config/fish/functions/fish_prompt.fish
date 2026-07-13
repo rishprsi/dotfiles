@@ -44,7 +44,7 @@ function fish_prompt --description 'Write out the prompt'
         set ssh_host (set_color yellow)"🌐 "(set_color green)(prompt_hostname)(set_color white) '|'
     end
     set_color -b black
-    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' (set_color -o white) '❰' $ssh_host (set_color yellow) (prompt_pwd) (set_color white) $git_info (set_color white) '❱' (set_color white)
+    printf '%s%s%s%s%s%s%s%s%s%s%s%s%s' $ssh_host (set_color yellow) (prompt_pwd) (set_color white) $git_info ' ' (set_color white)
     if test $laststatus -eq 0
         printf "%s✔%s≻%s " (set_color -o green) (set_color white) (set_color --reset)
     else
