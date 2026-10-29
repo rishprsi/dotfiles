@@ -1,9 +1,9 @@
 theme = Vesper
 background = 000000
 macos-option-as-alt = true
-window-decoration = true
+window-decoration = none
 
-font-family = JetBrains Mono
+font-family = JetBrainsMono Nerd Font
 font-thicken = true
 font-size = 11
 
