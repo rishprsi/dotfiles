@@ -2,7 +2,7 @@ theme = Vesper
 background = 000000
 macos-option-as-alt = true
 window-decoration = none
-background-opacity = 0.8
+background-opacity = 0.85
 background-blur = true
 
 font-family = JetBrainsMono Nerd Font

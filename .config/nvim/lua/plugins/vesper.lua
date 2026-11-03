@@ -8,6 +8,7 @@ return {
 			-- Optional setup if you prefer to use vim.cmd
 			-- vim.cmd.colorscheme("vesper")
 			require("vesper").setup({
+				transparent = true,
 				palette_overrides = {
 					bg = "#000000", -- pure black editor background
 					bgDark = "#000000",
