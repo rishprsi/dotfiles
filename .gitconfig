@@ -1,0 +1,29 @@
+[user]
+	name = Rishabh Pratap Singh
+	email = rishprsi@gmail.com
+	signingkey = A57F34040DB1B027F19BE2DB4F209B2107048D26
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[gitubuntu]
+  lpuser = rishprsi
+[log]
+    decorate = short
+[commit]
+    verbose = true
+	gpgsign = true
+[merge]
+    summary = true
+    stat = true
+[core]
+    whitespace = trailing-space,space-before-tab
+
+[diff "ruby"]
+    funcname = "^ *\\(\\(def\\) .*\\)"
+[diff "image"]
+    textconv = identify
+
+[url "git+ssh://rishprsi@git.launchpad.net/"]
+  insteadOf = lp:
+	; insteadOf = https://launchpad.net
